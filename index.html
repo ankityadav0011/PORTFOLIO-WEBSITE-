@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Depeloper's Portfolio</title>
+    <script src="https:/kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- header parts of website  -->
+    <header>
+    <div id="head">
+      <nav>
+        <div class="left">Ankit's Portfolio</div>
+        <div class="right">
+          <ul>
+            <a class="link" href="#head"><li>Home</li></a>
+            <a class="link" href="#aboutsec"><li>About</li></a>
+            <!-- <a class="link" href=""><li>services</li></a> -->
+            <a class="link" href="#prosec"><li>Projects</li></a>
+            <a class="link" href="#comeoverme"><li>Contact Me</li></a>
+            
+            <img src="close.png" class="menu">
+          </ul>
+          <!-- <img src="close.png" class="menu"> -->
+          <img src="menu.png" class="menu">
+        </div>
+      </nav>
+    </div>
+    </header>
+    
+    <!-- main website starts here  -->
+    <main>
+      <section class="firstsec">
+        <div class="leftsec">
+          Hi , My name is <span class="utility">Ankit</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rytsec">
+          <img src="pic.png" alt="" />
+        </div>
+      </section>
+      <hr>
+      <!---- about section --------------------------------------------------  -->
+      <div class="about">
+        <div id="aboutsec">
+        <div class="container">
+          <div class="row">
+            <div class="aboutcol1">
+              <img src="mypic.jpg" alt="" />
+            </div>
+            <div class="aboutcol2">
+              <h1>About Me</h1>
+              <p>
+                My name is Ankit Kumar. I am currently pursuing my Bachelor of Technology in Electronics and 
+                Communication Engineering from Maharaja Surajmal Institute of Technology, New Delhi, India. I love
+                 solving complex problems, enjoy challenges, and thrive under pressure while maintaining a positive image. 
+                 With logical and creative thinking, I have a deep interest in coding and creating unique art. Additionally, 
+                 I enjoy reading, playing games like Sudoku, exercising, and always smiling.
+
+                I am a driven and dedicated individual with a diverse range of skills and interests. I possess
+                 excellent communication and leadership skills, and I love meeting new people and learning from them.
+                  I am constantly seeking new opportunities to learn and grow, and I am excited to see what the future holds.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-links" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <li>
+                  <span>Deep understanding of Data Structures and Algorithms</span><br />In c++ 
+                  <br />I love problem solving.<br>
+                  I have solved over 600+ dsa  problems on platforms like Leetcode ,GFG ,Codeforces and codechef . <br>
+                  Acheived Max rating of 1768+ on Leetcode weekly Contest (check the profile mentioned below).
+                </li>
+                <li>
+                  <span>Frontend Developer</span><br />HTML5,CSS,Tailwind, Javascript,Reactjs.
+                  <br /> I have Developed interesting projects using these skills like Portfolio Website,Tic Tac Toe Game, and a Amazon shopping website clone etc <br />
+                  <br />
+                </li>
+                <li>
+                  <span>Computer Fundamentals Subjects</span
+                  ><br />Operating System, Computer Networks. <br>Object Oriented Programming(Oops),Database Management System (DBMS).<br>
+
+                </li>
+              </div>
+
+              <div class="tab-contents" id="experience">
+                <li>
+                  <span>Software Engineer Intern</span><br />At BlueStock
+                  Fintech,Pune ,Maharastra .
+                </li>
+                <li>
+                  <span>Content Creator on Youtube</span><br />I solve data
+                  strcutures problems here <br>to help others
+                </li>
+                <li>
+                  <span>Virtual SDE intern at JP Morgan</span><br />completed a
+                  task related to sde work.
+                </li>
+              </div>
+              <div class="tab-contents" id="education">
+                <li>
+                  <span>B.Tech <br>(Electronics and communication Engineering) </span
+                  ><br />CGPA:8.117 (till 6th Semester)
+                </li>
+                <li><span>Class 12th in BSEB</span><br/></li>
+                        Percentage: 80.6% (403/500).
+                <li>
+                  <span>Class 10th in CBSE</span
+                  ><br />Percentage : 91.2 (9.6 cgpa).
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <hr>
+      <!-- <--- project section code _------------------------------------------ -->
+      <div class="projects">
+        <id id="prosec">
+        <div class="container">
+          <h1 class="subtitles">My Projects</h1>
+          <div class="projectlist">
+            <!-- ---------first project  ---------------------->
+            <div>
+              <h2>Amazon Clone</h2>
+              <p>
+                Using <span class="clone">HTML and CSS</span><br>
+                I have Designed clone of amazon shopping app Clone
+
+              </p>
+              <a href="">PROJECT LINK</a>
+            </div>
+            <!-------- second Project ---------------------- -->
+            <div>
+              <h2>Tic Tac Toe Game</h2>
+              <p>
+                Using <span class="clone">HTML,CSS and JavaScript</span><br>
+                I have made a game named Tic Tac Toe 
+              </p>
+              <a href="">PROJECT LINK</a>
+            </div>
+            <!-- Third Project  -->
+            <div>
+              <h2>Portfolio Website</h2>
+              <p>
+                Using <span class="clone">HTML,CSS and JavaScript</span><br>
+                I have made my personal website by written 763+ lines of HTML CSS and JAVASCRIPT codes. <br>
+                Using So many Special features <br>
+                FORM SUBMISSION <br>
+                SOCIAL MEDIA LINKS  
+
+              </p>
+              <a href="">PROJECT LINK</a>
+            </div>
+          </div>
+        </div>
+        </id>
+      </div>
+      <hr>
+       <!------------- contact me section-------- -- --->
+
+       <div class="contact">
+          <div id="comeoverme">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="contme">Contact Me</h1>
+                        <div class="upper">
+                         <div class="ok">
+                            <img src="newemail.png" alt="">
+                            <p>ankitkumar7208701@gmail.com</p>
+                         </div>
+                         <div class="done">
+                            <img src="call.png" alt="">
+                            <p> 9508294182</p>
+                         </div>
+                        </div>
+                        <div class="socialicons">
+                            <a href="https://www.instagram.com/a.ankit_yadav?igsh=NTNiaWEzejI1enR6"><img src="instagram.webp" alt=""></a>
+                            <a href="https://github.com/ankityadav0011"><img src="git.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/ankit-kumar-3656a4250"><img src="linkedin.webp" alt=""></a>
+                            <a href="https://leetcode.com/u/kittu_7208701/"><img src="leet.png" alt=""></a>
+                        </div>
+                        <div class="btncv">
+                            <a href="resume1.pdf" download="btncv">Download Resume</a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                         <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="submitinfo">Submit</button>
+                         </form> 
+                         <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- <div class="copyright">
+                <p>Copyright ©  made by Ankit Kumar. All rights reserved.</p>
+            </div> -->
+       </div>
+       <div class="copyright">
+        <p>Copyright ©  made by Ankit Kumar. All rights reserved.</p>
+    </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "SDE Intern",
+          " frontend developer",
+          " Content Creator",
+          "Problem Solver"
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="index.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzPv1h4hjSZSsk_Xpvc3eD83I5_LfYzOiowbpFLV7uygGOnO7CC-PpLr1x6IJqo-i_LZQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                   msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+
+    
+  </body>
+</html>
+
+
