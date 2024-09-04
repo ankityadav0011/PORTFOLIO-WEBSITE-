@@ -11,6 +11,7 @@ body{
     font-family: Calibri;
     border:50px white;
     border-radius: 5px;
+    background-image: url('photo-4.jpg');
 
 }
 nav{
@@ -148,6 +149,7 @@ main h1{
 .about{
     background-color:#0a2351;;
     height: 67vw;
+    background-image:url('photo-4.jpg');
 }
 .row{
     display: flex;
@@ -205,6 +207,7 @@ main h1{
     height: 38vw;
     padding: 30px 0;
     border: 5px gray ;
+    background-image: url('photo-4.jpg');
 }
 .projectlist{
     display: grid;
@@ -257,6 +260,7 @@ main h1{
 }
 .contact{
     height: 40vw;
+   background-image: url('photo-4.jpg');
 }
 .socialicons a{
       color: #ff004f;
