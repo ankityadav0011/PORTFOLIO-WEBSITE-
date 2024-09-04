@@ -3,7 +3,7 @@
    padding: 0;  
 }
 html{
-    scroll-behavior: smooth; 
+    scroll-behavior:smooth; 
 }
 body{
     background-color:#0a2351;
@@ -12,7 +12,6 @@ body{
     border:50px white;
     border-radius: 5px;
     background-image: url('photo-4.jpg');
-
 }
 nav{
     display: flex;
@@ -20,13 +19,11 @@ nav{
     background-color:#5072A7; 
     align-items:center;
     border: 2px gray;
-    height: 50px;
-    
+    height: 50px;  
 }
 ul{
     display: flex;
     justify-content: center;
-
 }
 li{
     list-style: none;
