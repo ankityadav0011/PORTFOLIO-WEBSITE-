@@ -3,7 +3,7 @@
    padding: 0;  
 }
 html{
-    scroll-behavior:smooth; 
+    scroll-behavior: smooth; 
 }
 body{
     background-color:#0a2351;
@@ -19,11 +19,13 @@ nav{
     background-color:#5072A7; 
     align-items:center;
     border: 2px gray;
-    height: 50px;  
+    height: 50px;
+    
 }
 ul{
     display: flex;
     justify-content: center;
+
 }
 li{
     list-style: none;
@@ -113,9 +115,10 @@ main h1{
 }
 .aboutcol1 img{
     border-radius: 20px;
-    height: 500px;
+    height: 400px;
     width: 400px;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
 }
 .aboutcol2{
     margin-top: 50px;
@@ -131,9 +134,9 @@ main h1{
 }
 .aboutcol2 p{
     margin-top: 30px;
-    border: 2px solid pink;
-    border-radius: 5px;
-    background-color: #5072A7;
+    /* //border: 2px solid pink; */
+    /* border-radius: 5px; */
+    background-color: gray;
     color: black;
     font-size: 1.5rem;
     margin-right: 50px;
@@ -144,9 +147,10 @@ main h1{
     margin-left: 0;
 }
 .about{
-    background-color:#0a2351;;
+    /* background-color:#0a2351;; */
     height: 67vw;
     background-image:url('photo-4.jpg');
+    margin-top: -30px;
 }
 .row{
     display: flex;
@@ -195,16 +199,20 @@ main h1{
     font-size: 14px;
     font-size: 23px;
 }
+/* hr{
+    background-color: black;
+} */
 .tab-contents.active-tab{
     display: block;
     border: 50px white;
 }
 /* -------------------projects ------------------------------------------------------------- */
 .projects{
-    height: 38vw;
+    height: 40vw;
     padding: 30px 0;
     border: 5px gray ;
-    background-image: url('photo-4.jpg');
+    background-image: image();
+    margin-top: -30px;
 }
 .projectlist{
     display: grid;
@@ -214,6 +222,9 @@ main h1{
     margin-left: 50px;
     margin-right: 50px;
     border: 5px gray ;   
+}
+.projects {
+    background-image: url('photo-4.jpg');
 }
 .projectlist p{
     margin-top: 20px;
@@ -256,8 +267,12 @@ main h1{
      margin-top: 20px;
 }
 .contact{
-    height: 40vw;
-   background-image: url('photo-4.jpg');
+    height: 50vw;
+    background-image: url('photo-4.jpg');
+    margin-top: -30px;
+}
+.contact form{
+    margin-top: 30px;
 }
 .socialicons a{
       color: #ff004f;
@@ -286,6 +301,7 @@ main h1{
     width: 20px;
     margin-top:20px;
 }
+
 .done{
     display:flex;
     flex-wrap: wrap;
@@ -300,6 +316,9 @@ main h1{
     background: #0a2351;
     margin-left: 120px;
     margin-top: 50px;
+    padding: 3px;
+    border-radius: 9px;
+
 }
 .ok{
     display:flex;
@@ -314,7 +333,6 @@ main h1{
     transform: translateY(-2px);  
 } */
 .socialicons a img:hover{
-    background-color:  #ff004f;
     transform: translateY(-5px);  
      
 }
@@ -380,7 +398,6 @@ form input,form textarea{
     background-color: #262626;
     font-weight: 300;
     margin-top: 20px;
-
 }
 .menu{
     display: none;
@@ -399,8 +416,7 @@ form input,form textarea{
     color: bisque;
    }
    .right a{
-     font-size:30px;
-      
+     font-size:30px;  
    }
    .menu{
     display:block;
@@ -408,9 +424,10 @@ form input,form textarea{
     width: 20px;
     }
     body{
-        max-width:min-content;
+        max-width:max-content;
+    
     }
-    /* .right ul{
+    .right ul{
         background-color:#ff004f;
         position:fixed;
         top:0;
@@ -424,7 +441,7 @@ form input,form textarea{
        display: block;
        margin:20px; 
     } */
-    .about{
+    /* .about{
         height: 350vw;
         background-color: black;
     }
@@ -495,6 +512,7 @@ form input,form textarea{
     }
 
 }
+
 #msg{
     margin-left: 200px;
     color: #5072A7;
