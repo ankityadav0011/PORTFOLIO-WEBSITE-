@@ -208,7 +208,7 @@ main h1{
 }
 /* -------------------projects ------------------------------------------------------------- */
 .projects{
-    height: 40vw;
+    height: 60vw;
     padding: 30px 0;
     border: 5px gray ;
     background-image: image();
