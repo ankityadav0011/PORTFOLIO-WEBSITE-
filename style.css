@@ -37,7 +37,7 @@ li{
 }
 .link :hover{
      color:lavender ;
-     font-size: 1.3rem;
+     transform: translateY(-3px);
 }
 .left{
     font-size: 1.7rem;
