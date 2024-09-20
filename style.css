@@ -13,6 +13,12 @@ body{
     border-radius: 5px;
     background-image: url('photo-4.jpg');
 }
+hr{
+   width: 50%; 
+   margin-left: auto;
+   margin-right: auto;
+}
+
 nav{
     display: flex;
     justify-content:space-around;
